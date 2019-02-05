@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2190926aeef8a211901a795293bd88ad",
+    "content-hash": "f6380dbbc2716da190f8edfda47f50ce",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -693,6 +693,48 @@
             ],
             "description": "Highlight PHP code in terminal",
             "time": "2018-09-29T18:48:56+00:00"
+        },
+        {
+            "name": "laravel-frontend-presets/tailwindcss",
+            "version": "0.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-frontend-presets/tailwindcss.git",
+                "reference": "7a0d0f4f1e5139743a8519a91f1952fb918dd01d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-frontend-presets/tailwindcss/zipball/7a0d0f4f1e5139743a8519a91f1952fb918dd01d",
+                "reference": "7a0d0f4f1e5139743a8519a91f1952fb918dd01d",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^5.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelFrontendPresets\\TailwindCssPreset\\TailwindCssPresetServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelFrontendPresets\\TailwindCssPreset\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Laravel frontend preset for Tailwind CSS",
+            "keywords": [
+                "laravel",
+                "preset",
+                "tailwindcss"
+            ],
+            "time": "2018-09-07T05:12:21+00:00"
         },
         {
             "name": "laravel/framework",
