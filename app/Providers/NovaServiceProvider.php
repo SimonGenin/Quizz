@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Quizz\Providers;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Cards\Help;

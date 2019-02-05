@@ -42,7 +42,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "Quizz\\": "app/"
         },
         "classmap": [
             "database/seeds",
